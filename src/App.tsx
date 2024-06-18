@@ -27,6 +27,9 @@ function App() {
         </button>
         <button onClick={() => setCount(0)}>Zero Count</button>
         <br />
+        <button onClick={() => setCount((count) => count * 10)}>10x</button>
+
+        <br />
         <button onClick={() => setCount((count) => count / 10)}>
           Divide by 10
         </button>
