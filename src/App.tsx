@@ -26,6 +26,10 @@ function App() {
           Decrement
         </button>
         <button onClick={() => setCount(0)}>Zero Count</button>
+        <br />
+        <button onClick={() => setCount((count) => count / 10)}>
+          Divide by 10
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
