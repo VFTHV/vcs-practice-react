@@ -84,7 +84,6 @@ export default function MuiButton() {
           <SendIcon />
         </IconButton>
       </Stack>
-<<<<<<< HEAD
 
       <Stack direction={'row'}>
         <ToggleButtonGroup
@@ -106,26 +105,6 @@ export default function MuiButton() {
             <FormatUnderlinedIcon />
           </ToggleButton>
         </ToggleButtonGroup>
-=======
-      <Stack direction={'row'}>
-        <ButtonGroup
-          variant="contained"
-          orientation="vertical"
-          size="small"
-          color="secondary"
-          aria-label="alignment button group"
-        >
-          <Button
-            onClick={() => {
-              alert('left clicked');
-            }}
-          >
-            Left
-          </Button>
-          <Button>Center</Button>
-          <Button>Right</Button>
-        </ButtonGroup>
->>>>>>> 626f353b4c55662bc91fea19cfa61564da12cf46
       </Stack>
     </Stack>
   );
