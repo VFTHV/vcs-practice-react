@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   Button,
   Stack,
@@ -7,9 +6,6 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from '@mui/material';
-=======
-import { Button, Stack, IconButton, ButtonGroup } from '@mui/material';
->>>>>>> 626f353b4c55662bc91fea19cfa61564da12cf46
 import SendIcon from '@mui/icons-material/Send';
 import FormatBoldIcon from '@mui/icons-material/FormatBold';
 import FormatItalicIcon from '@mui/icons-material/FormatItalic';
