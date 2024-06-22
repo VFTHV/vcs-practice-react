@@ -117,8 +117,7 @@ export default function MuiButton() {
           >
             Left
           </Button>
-          <Button>Center</Button>
-          <Button>Right</Button>
+          <Button>Center</Button>k<Button>Right</Button>
         </ButtonGroup>
         {/* center */}
       </Stack>
