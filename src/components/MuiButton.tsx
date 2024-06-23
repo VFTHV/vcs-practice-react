@@ -102,6 +102,25 @@ export default function MuiButton() {
           </ToggleButton>
         </ToggleButtonGroup>
       </Stack>
+      <Stack direction={'row'}>
+        <ButtonGroup
+          variant="contained"
+          orientation="vertical"
+          size="small"
+          color="secondary"
+          aria-label="alignment button group"
+        >
+          <Button
+            onClick={() => {
+              alert('left clicked');
+            }}
+          >
+            Left
+          </Button>
+          <Button>Center</Button>k<Button>Right</Button>
+        </ButtonGroup>
+        {/* center */}
+      </Stack>
     </Stack>
   );
 }
