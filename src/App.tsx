@@ -4,7 +4,8 @@
 // import { MuiTypography } from './components/MuiTypography';
 // import MuiCheckbox from './components/MuiCheckbox';
 
-import MuiSwitch from './components/MuiSwitch';
+import MuiAutocomplete from './components/MuiAutocomplete';
+// import MuiSwitch from './components/MuiSwitch';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <MuiButton /> */}
       {/* <MuiSelect /> */}
       {/* <MuiCheckbox /> */}
-      <MuiSwitch />
+      {/* <MuiSwitch /> */}
+      <MuiAutocomplete />
     </div>
   );
 }
