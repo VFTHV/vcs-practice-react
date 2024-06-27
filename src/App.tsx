@@ -4,8 +4,9 @@
 // import { MuiTextField } from './components/MuiTextField';
 // import { MuiTypography } from './components/MuiTypography';
 // import MuiRating from './components/MuiRating';
+// import MuiLayout from './components/MuiLayout';
 
-import MuiLayout from './components/MuiLayout';
+import MuiAccordion from './components/MuiAccordion';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <MuiTextField /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiRating /> */}
-      <MuiLayout />
+      {/* <MuiLayout /> */}
+      <MuiAccordion />
     </div>
   );
 }
