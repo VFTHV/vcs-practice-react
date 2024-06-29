@@ -5,19 +5,21 @@
 // import { MuiTypography } from './components/MuiTypography';
 // import MuiRating from './components/MuiRating';
 // import MuiLayout from './components/MuiLayout';
+// import MuiCard from './components/MuiCard';
 
-import MuiCard from './components/MuiCard';
+import MuiNavbar from './components/MuiNavbar';
 
 function App() {
   return (
-    <div style={{ margin: '2rem' }}>
+    <div>
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiRating /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiNavbar />
     </div>
   );
 }
