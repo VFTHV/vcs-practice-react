@@ -7,7 +7,8 @@
 // import MuiLayout from './components/MuiLayout';
 // import MuiLayout from './components/MuiLayout';
 
-import MuiAccordion from './components/MuiAccordion';
+// import MuiAccordion from './components/MuiAccordion';
+import SSN from './components/SSN';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <MuiRadioButton /> */}
       {/* <MuiRating /> */}
       {/* <MuiLayout /> */}
-      <MuiAccordion />
+      {/* <MuiAccordion /> */}
+      <SSN />
     </div>
   );
 }
