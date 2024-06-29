@@ -18,8 +18,6 @@
 import MuiBadge from './components/MuiBadge';
 
 function App() {
-  const [value, setValue] = useState<number>(0);
-
   return (
     <div>
       {/* <MuiTypography /> */}
