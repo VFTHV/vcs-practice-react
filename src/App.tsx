@@ -6,9 +6,10 @@
 // import MuiRating from './components/MuiRating';
 // import MuiLayout from './components/MuiLayout';
 // import MuiLayout from './components/MuiLayout';
-
 // import MuiAccordion from './components/MuiAccordion';
-import SSN from './components/SSN';
+// import SSN from './components/SSN';
+
+import MuiLink from './components/MuiLink';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiLayout /> */}
       {/* <MuiAccordion /> */}
-      <SSN />
+      {/* <SSN /> */}
+      <MuiLink />
     </div>
   );
 }
