@@ -8,8 +8,12 @@
 // import MuiLayout from './components/MuiLayout';
 // import MuiAccordion from './components/MuiAccordion';
 // import SSN from './components/SSN';
+// import MuiLink from './components/MuiLink';
 
-import MuiLink from './components/MuiLink';
+import MuiBreadcrumbs from './components/MuiBreadcrumbs';
+import MuiDrawer from './components/MuiDrawer';
+import MuiNavbar from './components/MuiNavbar';
+import MuiSpeedDial from './components/MuiSpeedDial';
 
 function App() {
   return (
@@ -22,7 +26,11 @@ function App() {
       {/* <MuiLayout /> */}
       {/* <MuiAccordion /> */}
       {/* <SSN /> */}
-      <MuiLink />
+      {/* <MuiLink /> */}
+      {/* <MuiNavbar />
+      <MuiBreadcrumbs />
+      <MuiDrawer /> */}
+      <MuiSpeedDial />
     </div>
   );
 }
