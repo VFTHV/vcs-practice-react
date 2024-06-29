@@ -13,7 +13,7 @@ import MuiLink from './components/MuiLink';
 
 function App() {
   return (
-    <div style={{ margin: '2rem' }}>
+    <div>
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
