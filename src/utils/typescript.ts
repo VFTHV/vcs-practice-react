@@ -69,3 +69,5 @@ if (typeof value === 'string') {
 }
 
 const strLength: number = (value as string).length;
+
+// added for pull request
