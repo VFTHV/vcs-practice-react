@@ -9,13 +9,14 @@
 // import MuiAccordion from './components/MuiAccordion';
 // import SSN from './components/SSN';
 // import MuiLink from './components/MuiLink';
-
 // import MuiBreadcrumbs from './components/MuiBreadcrumbs';
 // import MuiDrawer from './components/MuiDrawer';
 // import MuiNavbar from './components/MuiNavbar';
 // import MuiAvatar from './components/MuiAvatar';
 // import MuiSpeedDial from './components/MuiSpeedDial';
-import MuiBadge from './components/MuiBadge';
+// import MuiBadge from './components/MuiBadge';
+// import MuiList from './components/MuiList';
+import MuiChip from './components/MuiChip';
 
 function App() {
   return (
@@ -34,7 +35,9 @@ function App() {
       <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiAvatar /> */}
-      <MuiBadge />
+      {/* <MuiBadge /> */}
+      {/* <MuiList /> */}
+      <MuiChip />
     </div>
   );
 }
