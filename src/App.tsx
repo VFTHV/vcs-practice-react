@@ -10,14 +10,14 @@
 // import SSN from './components/SSN';
 // import MuiLink from './components/MuiLink';
 
-import { useState } from 'react';
-import DisplayNav from './components/DisplayNav';
-import MuiBottonNavigation from './components/MuiBottonNavigation';
-import MuiNavbar from './components/MuiNavbar';
+// import MuiBreadcrumbs from './components/MuiBreadcrumbs';
+// import MuiDrawer from './components/MuiDrawer';
+// import MuiNavbar from './components/MuiNavbar';
+// import MuiAvatar from './components/MuiAvatar';
+// import MuiSpeedDial from './components/MuiSpeedDial';
+import MuiBadge from './components/MuiBadge';
 
 function App() {
-  const [value, setValue] = useState<number>(0);
-
   return (
     <div>
       {/* <MuiTypography /> */}
@@ -26,10 +26,15 @@ function App() {
       {/* <MuiRadioButton /> */}
       {/* <MuiRating /> */}
       {/* <MuiLayout /> */}
-      {/* <MuiCard /> */}
-      <MuiNavbar />
-      <DisplayNav page={value} />
-      <MuiBottonNavigation setValue={setValue} />
+      {/* <MuiAccordion /> */}
+      {/* <SSN /> */}
+      {/* <MuiLink /> */}
+      {/* <MuiNavbar />
+      <MuiBreadcrumbs />
+      <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
     </div>
   );
 }
