@@ -16,6 +16,7 @@
 // import MuiAvatar from './components/MuiAvatar';
 // import MuiSpeedDial from './components/MuiSpeedDial';
 import MuiBadge from './components/MuiBadge';
+import MuiTable from './components/MuiTable';
 import MuiTooltip from './components/MuiTooltip';
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
       {/* <MuiSpeedDial /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
-      <MuiTooltip />
+      {/* <MuiTooltip /> */}
+      <MuiTable />
     </div>
   );
 }
